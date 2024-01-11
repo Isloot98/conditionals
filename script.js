@@ -11,12 +11,10 @@ let parentPresent = true;
 const body = document.querySelector("body");
 
 function checkMovie() {
-    // Get values from input fields
     let age = parseInt(document.getElementById("age").value);
     let movieRating = document.getElementById("movieRating").value;
     let parentPresent = document.getElementById("parentPresent").checked;
 
-    // Clear previous results
     document.body.querySelectorAll('h2').forEach(element => element.remove());
 
 
